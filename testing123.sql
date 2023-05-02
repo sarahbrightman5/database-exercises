@@ -16,5 +16,5 @@ CREATE DATABASE IF NOT EXISTS  codeup_test_db;
 
 CREATE USER 'codeup_test_user'@'localhost' IDENTIFIED BY '123';
 
-GRANT ALL ON codeup_test_db.* TO 'billy'@'localhost';
+GRANT ALL ON codeup_test_db.* TO 'codeup_test_user'@'localhost';
 
